@@ -189,7 +189,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		font-family: var(--mainFont)
 	}
 
-	.shop_table.woocommerce-checkout-review-order-table div:nth-child(2) .cart-subtotal {
+	.shop_table.woocommerce-checkout-review-order-table div:nth-child(2) .cart-subtotal, .shop_table.woocommerce-checkout-review-order-table div:nth-child(2) div{
     	padding-bottom: 10px;
     	font-size: 14px;
 			font-family: var(--mainFont)
